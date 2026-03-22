@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import YT from '../assets/Images/YT.webp';
 import Lalaland from '../assets/Images/Lalaland.jpg';
 import OBAA from '../assets/Images/OBAA.jpg';
 
