@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Define our custom cinematic theme variables */
+:root {
+  --color-cinema-red: #e50914;
+  --color-cinema-black: #050505;
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+/* Base layer resets */
+@layer base {
+  body {
+    background-color: var(--color-cinema-black);
+    color: white;
+    font-family: var(--font-body);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+}
