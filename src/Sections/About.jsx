@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import me from '../assets/Images/Me.jpg'; 
+import resume from '../assets/Nilesh Sen.pdf';
 
 const About = () => {
   return (
@@ -68,6 +69,13 @@ const About = () => {
             <p>
               But my screen time isn't just about code. I'm also a visual storyteller, creating YouTube vlogs and shorts. This creative outlet heavily influences my frontend work—teaching me pacing, visual hierarchy, and audience engagement—ensuring every application I build isn't just functional, but genuinely captivating.
             </p>
+            <a href={resume} target="_blank" rel="noopener noreferrer">
+              <button 
+                className=" px-8 py-4 text-sm font-bold tracking-widest text-white transition-colors duration-300 rounded bg-cinema-red hover:bg-red-800 uppercase disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                View Resume
+              </button>
+            </a>
           </motion.div>
 
         </div>
