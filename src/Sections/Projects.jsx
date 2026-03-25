@@ -22,8 +22,8 @@ const Projects = () => {
       description: "A personal portfolio website showcasing my projects and skills. Built with a focus on cinematic design and smooth user experience.",
       techStack: ["React.js", "Tailwind CSS", "Framer Motion"],
       image: Portfolio,
-      githubLink: "#",
-      liveLink: "#"
+      githubLink: "https://github.com/Nilpete12/Personal-Portfolio",
+      liveLink: "https://nilpete9000.vercel.app/"
     },
     {
       title: "Volunteer Management",

@@ -57,7 +57,7 @@ const Certificates = () => {
           className="mb-16 text-center"
         >
           <h2 className="text-3xl font-black md:text-5xl text-cinema-red">
-            ACADEMY CERTIFICATIONS
+            ACADEMY CERTIFICATES
           </h2>
           <div className="w-24 h-1 mx-auto mt-4 bg-zinc-800"></div>
           <p className="max-w-2xl mx-auto mt-6 text-zinc-400">
@@ -130,7 +130,7 @@ const Certificates = () => {
         >
           <div className="w-24 h-1 mx-auto mt-4 bg-zinc-800"></div>
           <p className="max-w-2xl mx-auto mt-6 text-zinc-400">
-            Check out more certifications and credentials on my LinkedIn profile.
+            Check out more certificates and credentials on my LinkedIn profile.
           </p>
         </motion.div>
 
